@@ -20,11 +20,11 @@ def random_num():
     print(random.sample(values, 2))
     print(random.sample(values, 3))
 
-    # 打算顺序
+    # 打乱顺序
     random.shuffle(values)
     print(values)
 
-    # 随机整数
+    # 生成随机整数
     print(random.randint(0,10))
     print(random.randint(0,10))
     print(random.randint(0,10))
