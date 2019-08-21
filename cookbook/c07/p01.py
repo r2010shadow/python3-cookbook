@@ -19,7 +19,7 @@ def make_element(name, value, **attrs):  #attrs 是一个包含所有被传入�
                 value=html.escape(value))
     return element
 make_element('item', 'Albatross', size= 'large', quantity = 6)
-                            #  size= 'large', quantity = 6 传入的内容原样显示 
+#  size= 'large', quantity = 6 传入的内容原样显示 
                             
                             
 def anyargs(*args, **kwargs):  #能同时接受任意数量的位置参数和关键字参数，可以同时 使用 * 和 **
